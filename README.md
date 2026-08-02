@@ -8,6 +8,6 @@ For YT, I used twitter-RoBERTa base - even if it is fine tuned on twitter, the w
 Setup and Execution
 To run this notebook, ensure you have the necessary libraries installed and API keys configured:
 
-Hugging Face Transformers: The initial setup for AutoTokenizer and AutoModelForSequenceClassification is provided.
-Pytorch
-YouTube Data API: Requires a YOUTUBE_API_KEY stored in Colab Secrets.
+-Hugging Face Transformers: The initial setup for AutoTokenizer and AutoModelForSequenceClassification is provided.
+-Pytorch
+-YouTube Data API: Requires a YOUTUBE_API_KEY stored in Colab Secrets.
