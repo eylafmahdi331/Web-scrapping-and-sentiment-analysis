@@ -4,3 +4,10 @@ In this code, I used two ways of doing scrapping:
 2- API: I scrapped YouType video for Vox titled "Sudan's conflict, explained", in this video international and local people express their views and sentiment towards the war between RSF and SAF. I scrapped for a sample of 300 comments.
 
 For YT, I used twitter-RoBERTa base - even if it is fine tuned on twitter, the way people comment is the same so it was still suitable to use it for YT- and because it is not trained, the predictions seem to have high false positive after going over the sentiment prediction and comparing it with the actual sentiment in the sentences.
+
+Setup and Execution
+To run this notebook, ensure you have the necessary libraries installed and API keys configured:
+
+Hugging Face Transformers: The initial setup for AutoTokenizer and AutoModelForSequenceClassification is provided.
+Pytorch
+YouTube Data API: Requires a YOUTUBE_API_KEY stored in Colab Secrets.
